@@ -6,13 +6,13 @@ const Hero = () => {
       <nav className="flex justify-between items-center w-full mb-10 pt-3">
         <img src={logo} alt="sumz_logo" className="w-28 object-contain" />
 
-        <button
+        {/* <button
           type="button"
           onClick={() => window.open("http://github.com/macr0dose")}
           className="black_btn"
         >
           Github
-        </button>
+        </button> */}
       </nav>
 
       <h1 className="head_text">
@@ -20,7 +20,7 @@ const Hero = () => {
         <span className="orange_gradient">OpenAI GPT-4</span>
       </h1>
       <h2 className="desc">
-        Simply your reading with Summize, an open-source article summarizer that transforms lengthy articles into clear and concise summaries
+        Simplify your reading with Sumz, an open-source article summarizer that transforms lengthy articles into clear and concise summaries
       </h2>
     </header>
   );
